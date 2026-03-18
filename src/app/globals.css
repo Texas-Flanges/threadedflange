@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  @apply bg-white text-gray-900;
+  @apply bg-slate-900 text-gray-100;
 }
 
 a {
