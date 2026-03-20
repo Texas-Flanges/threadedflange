@@ -75,7 +75,7 @@ body > header.border-gray-200 { display: none !important; }
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="py-20 px-6 rv" style={{background:'#0f172a', color:'#ffffff'}}>
+      <section id="about" className="py-10 sm:py-16 lg:py-20 px-6 rv" style={{background:'#0f172a', color:'#ffffff'}}>
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl font-bold mb-6" style={{color:'#38bdf8'}}>About Threaded Flanges</h2>
@@ -89,7 +89,7 @@ body > header.border-gray-200 { display: none !important; }
       </section>
 
       {/* SPECIFICATIONS */}
-      <section id="specifications" className="py-20 px-6 rv" style={{background:'#1e293b', color:'#ffffff'}}>
+      <section id="specifications" className="py-10 sm:py-16 lg:py-20 px-6 rv" style={{background:'#1e293b', color:'#ffffff'}}>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center" style={{color:'#38bdf8'}}>Product Specifications</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -113,7 +113,7 @@ body > header.border-gray-200 { display: none !important; }
       </section>
 
       {/* INDUSTRIES */}
-      <section id="industries" className="py-20 px-6 rv" style={{background:'#0f172a', color:'#ffffff'}}>
+      <section id="industries" className="py-10 sm:py-16 lg:py-20 px-6 rv" style={{background:'#0f172a', color:'#ffffff'}}>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center" style={{color:'#38bdf8'}}>Industries Served</h2>
           <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-4">
@@ -126,14 +126,14 @@ body > header.border-gray-200 { display: none !important; }
         </div>
       </section>
 
-            <section id="datacenter" className="py-20 px-6 rv" style={{background:'#1e293b', color:'#ffffff'}}>
+            <section id="datacenter" className="py-10 sm:py-16 lg:py-20 px-6 rv" style={{background:'#1e293b', color:'#ffffff'}}>
               <div className="max-w-6xl mx-auto">
                 <h2 className="text-3xl font-bold mb-8" style={{color:'#38bdf8'}}>Data Center Infrastructure</h2>
                 <p className="text-lg leading-relaxed opacity-90" style={{color:'#94a3b8'}}>We supply flanges for data center cooling systems, fire suppression piping, and critical infrastructure. Hyperscale facilities require precision-manufactured flanges that meet demanding specifications for reliability and performance.</p>
               </div>
             </section>
       {/* FAQ */}
-      <section id="faq" className="py-20 px-6 rv" style={{background:'#0f172a', color:'#ffffff'}}>
+      <section id="faq" className="py-10 sm:py-16 lg:py-20 px-6 rv" style={{background:'#0f172a', color:'#ffffff'}}>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center" style={{color:'#38bdf8'}}>Frequently Asked Questions</h2>
           <details className="mb-4 rounded-lg shadow p-4 cursor-pointer group" style={{background:'#1e293b', borderColor:'#334155', border:'1px solid'}}>
@@ -148,7 +148,7 @@ body > header.border-gray-200 { display: none !important; }
       </section>
 
       {/* CTA */}
-      <section className="py-20 px-6 text-white text-center rv" style={{background:'linear-gradient(135deg, #0f172a, #1e293b)', color:'#ffffff'}}>
+      <section className="py-10 sm:py-16 lg:py-20 px-6 text-white text-center rv" style={{background:'linear-gradient(135deg, #0f172a, #1e293b)', color:'#ffffff'}}>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl font-bold mb-6" style={{color:'#38bdf8'}}>Ready to Get Started?</h2>
           <p className="text-lg opacity-90 mb-8 max-w-xl mx-auto" style={{color:'#94a3b8'}}>Contact us for competitive pricing, technical specifications, and fast delivery on threaded flanges.</p>
