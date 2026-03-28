@@ -12,7 +12,7 @@ export function Footer() {
             <p style={{color:'#94a3b8'}}>
               Leading supplier of quality flanges for industrial applications.
             </p>
-            <p style={{color:'#94a3b8', marginTop:'1rem', fontSize:'0.875rem'}}>Mon–Fri, 8 AM – 5 PM CST</p>
+            <p style={{color:'#94a3b8', marginTop:'1rem', fontSize:'0.875rem'}}>Mon-Fri, 8 AM - 5 PM CST</p>
           </div>
 
           <div>

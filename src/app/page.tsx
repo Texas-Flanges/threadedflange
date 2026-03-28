@@ -62,9 +62,8 @@ body > header.border-gray-200 { display: none !important; }
       </header>
 
       {/* HERO */}
-      <section className="relative min-h-[70vh] flex items-center justify-center text-white" style={{backgroundImage:'linear-gradient(rgba(15,23,42,0.85), rgba(15,23,42,0.85)), url(/hero-threaded-flange.jpg)', backgroundSize:'cover', backgroundPosition:'center', background:'#0f172a'}}>
+      <section className="relative flex items-center justify-center text-white" style={{backgroundImage:'linear-gradient(rgba(15,23,42,0.65), rgba(15,23,42,0.65)), url(/threaded-flanges-hero.jpg)', backgroundSize:'cover', backgroundPosition:'center', padding:'80px 24px', minHeight:'400px'}}>
         <div className="text-center px-6 max-w-4xl">
-          <p className="text-sm font-bold tracking-[0.3em] mb-4 opacity-70">YOUR SOURCE FOR THREADED FLANGES</p>
           <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">Threaded Pipe Flanges</h1>
           <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">Threaded (screwed) flanges for piping connections without welding. Ideal for low-pressure, non-critical applications and systems requiring frequent disassembly.</p>
           <div className="flex gap-4 justify-center flex-wrap">
@@ -83,7 +82,7 @@ body > header.border-gray-200 { display: none !important; }
             <p className="text-lg leading-relaxed mt-4 opacity-90" style={{color:'#94a3b8'}}>Threaded (screwed) flanges for piping connections without welding. Ideal for low-pressure, non-critical applications and systems requiring frequent disassembly.</p>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-xl">
-            <img src="https://images.unsplash.com/photo-1548945665-56d2712b4986?w=600&h=400&fit=crop&auto=format&q=80" alt="Threaded Flanges - Industrial pipe flanges" width="600" height="400" style={{width:"100%",height:"300px",borderRadius:"12px",objectFit:"cover"}} />
+            <img src="/threaded-flange-wrapped.jpg" alt="Threaded flange with NPT threads" width="393" height="282" style={{width:"100%",maxWidth:"393px",height:"auto",borderRadius:"12px"}} />
           </div>
         </div>
       </section>
@@ -108,6 +107,83 @@ body > header.border-gray-200 { display: none !important; }
               <h3 className="font-bold text-lg mb-3" style={{color:'#38bdf8'}}>Standards</h3>
               <p style={{color:'#94a3b8'}}>ASME B16.5, B16.47, API 605, MSS SP-44</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* NPT SECTION */}
+      <section id="npt" className="py-10 sm:py-16 lg:py-20 px-6 rv" style={{background:'#0f172a', color:'#ffffff'}}>
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold mb-6" style={{color:'#38bdf8'}}>What is NPT? (National Pipe Taper)</h2>
+          <p className="text-lg leading-relaxed mb-6" style={{color:'#94a3b8'}}>
+            NPT is the go-to threaded pipe connection across America. If you&apos;re working on a project in the U.S. or Canada, you&apos;re almost certainly dealing with NPT threads. They show up everywhere, from small instrument connections all the way up to large industrial piping systems.
+          </p>
+
+          <h3 className="text-2xl font-bold mb-4" style={{color:'#38bdf8'}}>How NPT Works</h3>
+          <p className="text-lg leading-relaxed mb-4" style={{color:'#94a3b8'}}>
+            The &quot;taper&quot; in National Pipe Taper is doing real work. NPT threads are cut on a taper of 1 inch per foot, so the diameter gradually gets smaller along the length of the thread. That taper is what makes the connection seal. Here&apos;s the basic technical breakdown:
+          </p>
+          <ul className="mb-6 space-y-2" style={{color:'#94a3b8'}}>
+            <li className="text-lg leading-relaxed"><strong style={{color:'#e2e8f0'}}>Thread angle:</strong> 60 degrees, measured between the flanks of the thread</li>
+            <li className="text-lg leading-relaxed"><strong style={{color:'#e2e8f0'}}>Thread shape:</strong> Flattened peaks and valleys (crests and roots)</li>
+            <li className="text-lg leading-relaxed"><strong style={{color:'#e2e8f0'}}>Sealing mechanism:</strong> An interference fit from the taper, typically helped along with pipe dope or PTFE tape if necessary</li>
+          </ul>
+          <p className="text-lg leading-relaxed mb-4" style={{color:'#94a3b8'}}>
+            When you thread a male NPT fitting into a female NPT fitting, the taper causes the threads to wedge together tighter and tighter the further you turn. Throw in a good thread sealant and you&apos;ve got a connection that holds pressure and keeps fluid where it belongs.
+          </p>
+          <p className="text-lg leading-relaxed mb-8" style={{color:'#94a3b8'}}>
+            The flattened crests and roots increase surface contact between the threads, which helps that metal-to-metal seal do its job. It&apos;s a simple, time-tested system - and the reason it&apos;s been the standard for as long as it has.
+          </p>
+
+          <h3 className="text-2xl font-bold mb-4" style={{color:'#38bdf8'}}>What Threaded Flanges Do We Offer?</h3>
+          <p className="text-lg leading-relaxed mb-8" style={{color:'#94a3b8'}}>
+            NPT threaded flanges range in 1/2 inch to 6&quot; nominal pipe size for the most common, but we are able to offer threads up to 24&quot; if needed, and custom beyond that. Larger diameter threaded connection make them less popular than a slip on or weld neck configuration due to labor costs. It may be of significantly beneficial use for an application which requires connecting and disconnecting occasionally.
+          </p>
+
+          <h3 className="text-2xl font-bold mb-4" style={{color:'#38bdf8'}}>NPT Thread Reference Chart</h3>
+          <div className="overflow-x-auto rounded-xl" style={{border:'1px solid #334155'}}>
+            <table className="w-full text-left" style={{borderCollapse:'collapse'}}>
+              <thead>
+                <tr style={{background:'#1e293b'}}>
+                  <th className="px-4 py-3 font-semibold text-sm" style={{color:'#38bdf8', borderBottom:'1px solid #334155'}}>Nominal Pipe Size</th>
+                  <th className="px-4 py-3 font-semibold text-sm" style={{color:'#38bdf8', borderBottom:'1px solid #334155'}}>OD (inches)</th>
+                  <th className="px-4 py-3 font-semibold text-sm" style={{color:'#38bdf8', borderBottom:'1px solid #334155'}}>Threads Per Inch</th>
+                </tr>
+              </thead>
+              <tbody style={{color:'#94a3b8'}}>
+                {[
+                  ['1/8"', '0.405', '27'],
+                  ['1/4"', '0.540', '18'],
+                  ['3/8"', '0.675', '18'],
+                  ['1/2"', '0.840', '14'],
+                  ['3/4"', '1.050', '14'],
+                  ['1"', '1.315', '11.5'],
+                  ['1-1/4"', '1.660', '11.5'],
+                  ['1-1/2"', '1.900', '11.5'],
+                  ['2"', '2.375', '11.5'],
+                  ['2-1/2"', '2.875', '8'],
+                  ['3"', '3.500', '8'],
+                  ['3-1/2"', '4.000', '8'],
+                  ['4"', '4.500', '8'],
+                  ['5"', '5.563', '8'],
+                  ['6"', '6.625', '8'],
+                  ['8"', '8.625', '8'],
+                  ['10"', '10.750', '8'],
+                  ['12"', '12.750', '8'],
+                  ['14"', '14.000', '8'],
+                  ['16"', '16.000', '8'],
+                  ['18"', '18.000', '8'],
+                  ['20"', '20.000', '8'],
+                  ['24"', '24.000', '8'],
+                ].map(([size, od, tpi], i) => (
+                  <tr key={i} style={{background: i % 2 === 0 ? '#0f172a' : '#1e293b', borderBottom:'1px solid #334155'}}>
+                    <td className="px-4 py-2 font-medium" style={{color:'#e2e8f0'}}>{size}</td>
+                    <td className="px-4 py-2">{od}</td>
+                    <td className="px-4 py-2">{tpi}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </section>
@@ -165,7 +241,7 @@ body > header.border-gray-200 { display: none !important; }
           <div>
             <h3 className="font-bold text-lg mb-4">Threaded Flanges</h3>
             <p className="text-sm opacity-70">Your source for quality industrial pipe flanges.</p>
-            <p className="text-sm opacity-70 mt-4">Mon–Fri, 8 AM – 5 PM CST</p>
+            <p className="text-sm opacity-70 mt-4">Mon-Fri, 8 AM - 5 PM CST</p>
           </div>
           <div>
             <h4 className="font-semibold mb-3" style={{color:'#38bdf8'}}>Quick Links</h4>
