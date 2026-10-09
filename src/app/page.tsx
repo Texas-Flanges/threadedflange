@@ -265,7 +265,7 @@ body > header.border-gray-200 { display: none !important; }
           <div>
             <h4 className="font-semibold mb-3" style={{color:'#38bdf8'}}>Related</h4>
             <div className="flex flex-col gap-2 text-sm opacity-80">
-              <a href="https://www.texasflange.com?ref=threadedflange" className="text-white no-underline">texasflange.com</a>
+              <a href="https://texasflange.com/threaded-flanges/?ref=threadedflange" className="text-white no-underline">texasflange.com</a>
             </div>
           </div>
         </div>
