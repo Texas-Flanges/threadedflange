@@ -50,7 +50,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 style={{fontSize:'1.25rem', fontWeight:700, marginBottom:'0.5rem', color:'#38bdf8'}}>Website</h3>
-                  <p style={{fontSize:'1.125rem'}}><a href="https://texasflange.com?ref=threadedflange" target="_blank" rel="noopener noreferrer" style={{color:'#38bdf8', textDecoration:'none'}}>texasflange.com</a></p>
+                  <p style={{fontSize:'1.125rem'}}><a href="https://texasflange.com/threaded-flanges/?ref=threadedflange" target="_blank" rel="noopener noreferrer" style={{color:'#38bdf8', textDecoration:'none'}}>texasflange.com</a></p>
                 </div>
               </div>
             </div>
@@ -61,7 +61,7 @@ export default function ContactPage() {
                 For detailed quotes and rush orders, please visit our main website or call our sales team directly.
                 We provide rapid response times for all inquiries.
               </p>
-              <a href="https://www.texasflange.com/contact-us/?ref=threadedflange" target="_blank" rel="noopener noreferrer" style={{display:'inline-block', padding:'0.75rem 2rem', background:'#38bdf8', color:'#0f172a', borderRadius:'6px', fontWeight:600, textDecoration:'none'}}>
+              <a href="https://texasflange.com/contact-us/?ref=threadedflange" target="_blank" rel="noopener noreferrer" style={{display:'inline-block', padding:'0.75rem 2rem', background:'#38bdf8', color:'#0f172a', borderRadius:'6px', fontWeight:600, textDecoration:'none'}}>
                 Request a Quote
               </a>
               <p style={{marginTop:'1.5rem', fontSize:'0.875rem', color:'#94a3b8'}}>

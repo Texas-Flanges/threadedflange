@@ -46,7 +46,7 @@ export default async function BlogPage() {
       </div>
       <footer style={{background:'#020617', color:'white', padding:'2rem 1.5rem', textAlign:'center', marginTop:'3rem'}}>
         <p style={{fontSize:'0.875rem', opacity:0.7}}>&copy; 2026 Threaded Flanges &middot; All rights reserved</p>
-        <p style={{fontSize:'0.875rem', marginTop:'0.5rem'}}><a href="https://texasflange.com?ref=threadedflange" style={{color:'#38bdf8', textDecoration:'none'}}>texasflange.com</a> &middot; 281-484-8325</p>
+        <p style={{fontSize:'0.875rem', marginTop:'0.5rem'}}><a href="https://texasflange.com/threaded-flanges/?ref=threadedflange" style={{color:'#38bdf8', textDecoration:'none'}}>texasflange.com</a> &middot; 281-484-8325</p>
       </footer>
     </>
   );

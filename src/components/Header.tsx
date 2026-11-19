@@ -26,7 +26,7 @@ export function Header() {
             Contact
           </Link>
         </nav>
-        <Link href="https://texasflange.com/contact?ref=threadedflange" target="_blank" rel="noopener noreferrer" style={{padding:'0.5rem 1rem', background:'#38bdf8', color:'#0f172a', borderRadius:'6px', fontWeight:600, textDecoration:'none'}}>
+        <Link href="https://texasflange.com/contact-us/?ref=threadedflange" target="_blank" rel="noopener noreferrer" style={{padding:'0.5rem 1rem', background:'#38bdf8', color:'#0f172a', borderRadius:'6px', fontWeight:600, textDecoration:'none'}}>
           Get a Quote
         </Link>
       </div>

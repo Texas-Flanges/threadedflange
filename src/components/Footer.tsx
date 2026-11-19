@@ -30,7 +30,7 @@ export function Footer() {
             <h4 style={{fontSize:'1.125rem', fontWeight:700, marginBottom:'1rem', color:'#38bdf8'}}>Resources</h4>
             <ul style={{listStyle:'none', padding:0, display:'flex', flexDirection:'column', gap:'0.5rem'}}>
               <li><Link href="/privacy-policy" style={{color:'#94a3b8', textDecoration:'none'}}>Privacy Policy</Link></li>
-              <li><a href="https://www.texasflange.com?ref=threadedflange" target="_blank" rel="noopener noreferrer" style={{color:'#94a3b8', textDecoration:'none'}}>Texas Flange</a></li>
+              <li><a href="https://texasflange.com/threaded-flanges/?ref=threadedflange" target="_blank" rel="noopener noreferrer" style={{color:'#94a3b8', textDecoration:'none'}}>Texas Flange</a></li>
             </ul>
           </div>
 
@@ -43,7 +43,7 @@ export function Footer() {
               Email: <a href="mailto:sales@texasflange.com" style={{color:'#38bdf8', textDecoration:'none'}}>sales@texasflange.com</a>
             </p>
             <p style={{color:'#94a3b8'}}>
-              Website: <a href="https://texasflange.com?ref=threadedflange" target="_blank" rel="noopener noreferrer" style={{color:'#38bdf8', textDecoration:'none'}}>texasflange.com</a>
+              Website: <a href="https://texasflange.com/threaded-flanges/?ref=threadedflange" target="_blank" rel="noopener noreferrer" style={{color:'#38bdf8', textDecoration:'none'}}>texasflange.com</a>
             </p>
           </div>
         </div>
