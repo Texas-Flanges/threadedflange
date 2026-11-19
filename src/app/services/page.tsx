@@ -45,7 +45,6 @@ export default function ServicesPage() {
               </p>
               <ul style={{listStyle:'none', padding:0, color:'#94a3b8', fontSize:'0.875rem'}}>
                 <li>✓ Standard ANSI flanges</li>
-                <li>✓ API certified products</li>
                 <li>✓ Custom specifications</li>
                 <li>✓ Material options</li>
               </ul>
