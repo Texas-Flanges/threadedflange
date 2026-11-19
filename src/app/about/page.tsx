@@ -43,8 +43,7 @@ export default function AboutPage() {
           </p>
           <p style={{fontSize:'1.125rem', marginBottom:'1rem', lineHeight:1.6, color:'#94a3b8'}}>
             We combine decades of manufacturing expertise with cutting-edge production capabilities
-            to deliver products that exceed industry standards. Whether you need standard specifications or custom-engineered solutions,
-            our team is equipped to meet your requirements.
+            to deliver products that exceed industry standards.
           </p>
 
           <h2 style={{fontSize:'1.875rem', fontWeight:700, marginBottom:'1.5rem', marginTop:'3rem', color:'#38bdf8'}}>Our Commitment</h2>
@@ -52,10 +51,6 @@ export default function AboutPage() {
             <li style={{display:'flex', gap:'1rem', marginBottom:'1rem', fontSize:'1.125rem', lineHeight:1.6}}>
               <span style={{color:'#38bdf8', fontWeight:'bold', flexShrink:0}}>✓</span>
               <span style={{color:'#94a3b8'}}><strong>Quality First:</strong> Every product undergoes rigorous testing and inspection.</span>
-            </li>
-            <li style={{display:'flex', gap:'1rem', marginBottom:'1rem', fontSize:'1.125rem', lineHeight:1.6}}>
-              <span style={{color:'#38bdf8', fontWeight:'bold', flexShrink:0}}>✓</span>
-              <span style={{color:'#94a3b8'}}><strong>Expert Support:</strong> Our engineers are available to help with technical questions and specifications.</span>
             </li>
             <li style={{display:'flex', gap:'1rem', marginBottom:'1rem', fontSize:'1.125rem', lineHeight:1.6}}>
               <span style={{color:'#38bdf8', fontWeight:'bold', flexShrink:0}}>✓</span>

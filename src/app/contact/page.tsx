@@ -58,7 +58,7 @@ export default function ContactPage() {
             <div style={{background:'#1e293b', border:'1px solid #334155', padding:'2rem', borderRadius:'8px'}}>
               <h2 style={{fontSize:'2rem', fontWeight:700, marginBottom:'1.5rem', color:'#38bdf8'}}>Quote Request</h2>
               <p style={{marginBottom:'1.5rem', color:'#94a3b8', lineHeight:1.6}}>
-                For detailed quotes and rush orders, please visit our main website or call our sales team directly.
+                Send your specs.
                 We provide rapid response times for all inquiries.
               </p>
               <a href="https://texasflange.com/contact-us/?ref=threadedflange" target="_blank" rel="noopener noreferrer" style={{display:'inline-block', padding:'0.75rem 2rem', background:'#38bdf8', color:'#0f172a', borderRadius:'6px', fontWeight:600, textDecoration:'none'}}>

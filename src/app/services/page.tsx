@@ -53,10 +53,6 @@ export default function ServicesPage() {
 
             <div style={{background:'#1e293b', border:'1px solid #334155', borderRadius:'8px', padding:'2rem'}}>
               <h3 style={{fontSize:'1.5rem', fontWeight:700, marginBottom:'1rem', color:'#38bdf8'}}>Custom Manufacturing</h3>
-              <p style={{marginBottom:'1rem', color:'#94a3b8', lineHeight:1.6}}>
-                When standard products don't fit your application, our engineering team designs and manufactures
-                custom solutions to your exact specifications.
-              </p>
               <ul style={{listStyle:'none', padding:0, color:'#94a3b8', fontSize:'0.875rem'}}>
                 <li>✓ Engineering support</li>
                 <li>✓ Rapid prototyping</li>
@@ -67,10 +63,6 @@ export default function ServicesPage() {
 
             <div style={{background:'#1e293b', border:'1px solid #334155', borderRadius:'8px', padding:'2rem'}}>
               <h3 style={{fontSize:'1.5rem', fontWeight:700, marginBottom:'1rem', color:'#38bdf8'}}>Technical Support</h3>
-              <p style={{marginBottom:'1rem', color:'#94a3b8', lineHeight:1.6}}>
-                Our experienced team provides detailed technical guidance, material consultation, and application support
-                to ensure you get the right product for your needs.
-              </p>
               <ul style={{listStyle:'none', padding:0, color:'#94a3b8', fontSize:'0.875rem'}}>
                 <li>✓ Application consulting</li>
                 <li>✓ Material selection</li>
