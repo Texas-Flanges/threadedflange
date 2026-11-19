@@ -1,13 +1,11 @@
 import { MetadataRoute } from 'next';
-import { getBlogPosts } from '@/lib/blog';
+import { validSlugs } from '@/lib/blog-slugs';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://threadedflange.com';
-  const posts = await getBlogPosts();
 
-  const blogRoutes = posts.map((post) => ({
-    url: baseUrl + '/blog/' + post.slug,
-    lastModified: post.date,
+  const blogRoutes = validSlugs.map((slug) => ({
+    url: baseUrl + '/blog/' + slug,
   }));
 
   return [
