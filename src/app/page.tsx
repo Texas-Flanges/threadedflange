@@ -56,7 +56,7 @@ body > header.border-gray-200 { display: none !important; }
             <a href="#industries" className="text-white/80 hover:text-white text-sm no-underline">Industries</a>
             <a href="/blog" className="text-white/80 hover:text-white text-sm no-underline">Blog</a>
             <a href="#faq" className="text-white/80 hover:text-white text-sm no-underline">FAQ</a>
-            <a href="https://www.texasflange.com/contact-us/?ref=threadedflange" className="px-4 py-2 rounded-lg text-sm font-semibold no-underline" style={{background:'#38bdf8', color:'#0f172a'}}>Get a Quote</a>
+            <a href="https://texasflange.com/contact-us/?ref=threadedflange" className="px-4 py-2 rounded-lg text-sm font-semibold no-underline" style={{background:'#38bdf8', color:'#0f172a'}}>Get a Quote</a>
           </nav>
         </div>
       </header>
@@ -64,10 +64,10 @@ body > header.border-gray-200 { display: none !important; }
       {/* HERO */}
       <section className="relative flex items-center justify-center text-white" style={{backgroundImage:'linear-gradient(rgba(15,23,42,0.65), rgba(15,23,42,0.65)), url(/threaded-flanges-hero.jpg)', backgroundSize:'cover', backgroundPosition:'center', padding:'80px 24px', minHeight:'400px'}}>
         <div className="text-center px-6 max-w-4xl">
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">Threaded Pipe Flanges</h1>
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight text-white">Threaded Pipe Flanges</h1>
           <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">Threaded (screwed) flanges for piping connections without welding. Ideal for low-pressure, non-critical applications and systems requiring frequent disassembly.</p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="https://www.texasflange.com/contact-us/?ref=threadedflange" className="px-8 py-3 rounded-lg font-semibold text-lg no-underline" style={{background:'#38bdf8', color:'#0f172a'}}>Request a Quote</a>
+            <a href="https://texasflange.com/contact-us/?ref=threadedflange" className="px-8 py-3 rounded-lg font-semibold text-lg no-underline" style={{background:'#38bdf8', color:'#0f172a'}}>Request a Quote</a>
             <a href="tel:281-484-8325" className="px-8 py-3 rounded-lg font-semibold text-lg no-underline border-2 text-white hover:bg-white/10" style={{borderColor:'#38bdf8'}}>Call 281-484-8325</a>
           </div>
         </div>
@@ -229,7 +229,7 @@ body > header.border-gray-200 { display: none !important; }
           <h2 className="text-4xl font-bold mb-6" style={{color:'#38bdf8'}}>Ready to Get Started?</h2>
           <p className="text-lg opacity-90 mb-8 max-w-xl mx-auto" style={{color:'#94a3b8'}}>Contact us for competitive pricing, technical specifications, and fast delivery on threaded flanges.</p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <a href="https://www.texasflange.com/contact-us/?ref=threadedflange" className="px-8 py-3 rounded-lg font-semibold text-lg no-underline" style={{background:'#38bdf8', color:'#0f172a'}}>Request a Quote</a>
+            <a href="https://texasflange.com/contact-us/?ref=threadedflange" className="px-8 py-3 rounded-lg font-semibold text-lg no-underline" style={{background:'#38bdf8', color:'#0f172a'}}>Request a Quote</a>
             <a href="mailto:sales@texasflange.com" className="px-8 py-3 rounded-lg font-semibold text-lg no-underline" style={{background:'transparent', color:'#38bdf8', border:'2px solid #38bdf8'}}>Email Us</a>
           </div>
         </div>
@@ -259,7 +259,7 @@ body > header.border-gray-200 { display: none !important; }
             <div className="flex flex-col gap-2 text-sm opacity-80">
               <a href="tel:281-484-8325" className="text-white no-underline">281-484-8325</a>
               <a href="mailto:sales@texasflange.com" className="text-white no-underline">sales@texasflange.com</a>
-              <a href="https://www.texasflange.com/contact-us/?ref=threadedflange" className="text-white no-underline">Request a Quote</a>
+              <a href="https://texasflange.com/contact-us/?ref=threadedflange" className="text-white no-underline">Request a Quote</a>
             </div>
           </div>
           <div>

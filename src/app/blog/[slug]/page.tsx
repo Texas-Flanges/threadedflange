@@ -1,21 +1,9 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import { validSlugs } from '@/lib/blog-slugs';
 
 const WP_API = 'https://peachpuff-wolf-392873.hostingersite.com/wp-json/wp/v2';
-
-const validSlugs = [
-  'what-is-flange-size',
-  'inspect-threaded-flanges',
-  'buying-guide-reducing-threaded-flanges',
-  'threaded-flange-installation-procedure',
-  'reducing-threaded-flanges',
-  'advantages-of-threaded-flanges',
-  'threaded-flange-connections',
-  'threaded-flange-dimensions-and-weights',
-  'male-and-female-threaded-flange',
-  'threaded-flange-types'
-];
 
 async function getPost(slug: string) {
   const res = await fetch(`${WP_API}/posts?slug=${slug}&_embed`, { next: { revalidate: 86400 } });
@@ -86,7 +74,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       </article>
       <footer style={{background:'#020617', color:'white', padding:'2rem 1.5rem', textAlign:'center', marginTop:'3rem'}}>
         <p style={{fontSize:'0.875rem', opacity:0.7}}>&copy; 2026 Threaded Flanges &middot; All rights reserved</p>
-        <p style={{fontSize:'0.875rem', marginTop:'0.5rem'}}><a href="https://texasflange.com?ref=threadedflange" style={{color:'#38bdf8', textDecoration:'none'}}>texasflange.com</a> &middot; 281-484-8325</p>
+        <p style={{fontSize:'0.875rem', marginTop:'0.5rem'}}><a href="https://texasflange.com/threaded-flanges/?ref=threadedflange" style={{color:'#38bdf8', textDecoration:'none'}}>texasflange.com</a> &middot; 281-484-8325</p>
       </footer>
     </>
   );

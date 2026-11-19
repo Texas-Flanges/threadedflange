@@ -29,7 +29,7 @@ export default function PrivacyPolicyPage() {
       })}} />
       <section style={{backgroundImage:'linear-gradient(135deg, #0f172a, #1e293b)', color:'white', padding:'3rem 1.5rem'}}>
         <div style={{maxWidth:'960px', margin:'0 auto'}}>
-          <h1 style={{fontSize:'2.25rem', fontWeight:800}}>Privacy Policy</h1>
+          <h1 className="text-white" style={{fontSize:'2.25rem', fontWeight:800}}>Privacy Policy</h1>
         </div>
       </section>
 
