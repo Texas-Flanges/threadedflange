@@ -64,7 +64,7 @@ body > header.border-gray-200 { display: none !important; }
       {/* HERO */}
       <section className="relative flex items-center justify-center text-white" style={{backgroundImage:'linear-gradient(rgba(15,23,42,0.65), rgba(15,23,42,0.65)), url(/threaded-flanges-hero.jpg)', backgroundSize:'cover', backgroundPosition:'center', padding:'80px 24px', minHeight:'400px'}}>
         <div className="text-center px-6 max-w-4xl">
-          <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">Threaded Pipe Flanges</h1>
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight text-white">Threaded Pipe Flanges</h1>
           <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">Threaded (screwed) flanges for piping connections without welding. Ideal for low-pressure, non-critical applications and systems requiring frequent disassembly.</p>
           <div className="flex gap-4 justify-center flex-wrap">
             <a href="https://texasflange.com/contact-us/?ref=threadedflange" className="px-8 py-3 rounded-lg font-semibold text-lg no-underline" style={{background:'#38bdf8', color:'#0f172a'}}>Request a Quote</a>

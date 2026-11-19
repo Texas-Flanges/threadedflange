@@ -29,7 +29,7 @@ export default function ContactPage() {
       })}} />
       <section style={{backgroundImage:'linear-gradient(135deg, #0f172a, #1e293b)', color:'white', padding:'3rem 1.5rem'}}>
         <div style={{maxWidth:'960px', margin:'0 auto'}}>
-          <h1 style={{fontSize:'2.25rem', fontWeight:800}}>Contact Us</h1>
+          <h1 className="text-white" style={{fontSize:'2.25rem', fontWeight:800}}>Contact Us</h1>
           <p style={{fontSize:'1.125rem', marginTop:'0.5rem', opacity:0.85}}>We're here to help with your flange needs</p>
         </div>
       </section>
